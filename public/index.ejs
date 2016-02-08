@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+ <meta charset="utf-8">
+ <meta http-equiv="x-ua-compatible" content="ie=edge">
+ <meta name="description" content="Search Book">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+ 
+ <title>Book Search</title>
+ <style>
+ ul, li{list-style:none; display:block; padding:0;}
+ margin-bottom-5{margin-bottom:5px;}
+ </style>
+ </head>
+<body>
+ <!-- Fixed navbar -->
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Book Stores</a></li>
+            <li><a href="#about">Online Books</a></li>            
+          </ul>          
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+<div class="container" id="wrap-books">
+<div class="jumbotron">
+<div class="row">
+
+<div class="col-xs-6">
+        <input autofocus type="text" name="q" id="search_input" value="" placeholder="" style="width:100%" />
+		</div>
+		<div class="col-xs-6">
+        <button id="search_button" class="btn btn-primary" type="button">Search Books</button>  
+        </div>		
+		
+ </div>
+ </div>
+  <section>
+  <div class="row">
+  <div class="hidden-xs col-lg-2 col-md-2 col-hidden-md">
+  <ul>
+      <li><strong>Authors</strong>
+      <br />
+        <ul>
+          <li><a href="#">Loremipsum</a></li>
+          <li><a href="#">Loremipsum</a></li>
+          <li><a href="#"">Loremipsum</a></li>
+          <li><a href="#">Loremipsum</a></li>
+          <li><a href="#">Loremipsum</a></li>
+          <li><a href="#">Loremipsum</a></li>
+        </ul>
+      </li>
+	  <li><strong>Publishers</strong>
+      <br class="clear" />
+        <ul>
+          <li><a href="#">Loremipsum</a></li>
+          <li><a href="#">Loremipsum</a></li>
+          <li><a href="#"">Loremipsum</a></li>
+          <li><a href="#">Loremipsum</a></li>
+          <li><a href="#">Loremipsum</a></li>
+          <li><a href="#">Loremipsum</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+      <div class="col-xs-12 col-lg-8 col-md-8 col-sm-12 margin-bottom-5" id="books"></div>
+  
+ </div>
+</section>
+<footer>
+<div class="container"><hr><p>Footer</p></div>
+</footer>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="js/bundle.js"></script>
+</body>
+</html>

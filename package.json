@@ -1,0 +1,25 @@
+{
+  "name": "booksearch",
+  "version": "1.0.0",
+  "description": "Search books using googlebooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kash",
+  "license": "ISC",
+  "dependencies": {
+    "backbone": "^1.2.3",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "jquery": "^2.2.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "gulp": "3.9.0",
+    "gulp-sass": "^2.2.0",
+    "vinyl-source-stream": "latest",
+    "watchify": "~1.0.1"
+  }
+}
