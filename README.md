@@ -4,6 +4,7 @@ To Do:Add pagging, use handlebars for template, add sass preprocessor, add karma
 Installation:
 open node cmd window navigate to BookSearch folder
 run following:
+
 one time execution
 
 >gulp
