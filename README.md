@@ -5,10 +5,15 @@ Installation:
 open node cmd window navigate to BookSearch folder
 run following:
 one time execution
->gulp 
+
+>gulp
+
 start server at localhost:3001
+
 >node server.js
 
 Testing - BookCollection sample test cases only added.
+
 >jasmine-node test
+
 2 test cases will be executed.
